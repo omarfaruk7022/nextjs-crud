@@ -18,6 +18,9 @@ export default function ProductList({
     );
   }
 
+
+  
+
   if (errorProduct) {
     return (
       <div className="w-full p-4 text-red-500 bg-red-50 rounded-lg">
