@@ -19,7 +19,7 @@ export default function ProductList({
   }
 
 
-  
+
 
   if (errorProduct) {
     return (
@@ -53,7 +53,7 @@ export default function ProductList({
             <div className="aspect-w-16 aspect-h-9 relative">
               <img
                 src={
-                  process.env.NEXT_PUBLIC_API_BASE_URL + product.imageUrl ||
+                  process.env.NEXT_PUBLIC_API_LIVE_URL + product.imageUrl ||
                   "/placeholder.svg"
                 }
                 alt={product.name}
